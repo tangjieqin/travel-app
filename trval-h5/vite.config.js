@@ -13,5 +13,13 @@ export default defineConfig({
     AutoImport({
       resolvers: [VantResolver()]
     })
-  ]
+  ],
+  server: {
+    proxy: {
+      '/api': {
+        target: 'http://localhost:8080',
+        changeOrigin: true
+      }
+    }
+  }
 })
