@@ -1,0 +1,7 @@
+server:
+  port: 8080
+
+siliconflow:
+  api-url: https://api.siliconflow.cn/v1/chat/completions
+  api-key: sk-qylonquxaofspozjdydqmrrruwvfimabeyyuwbyiaqfgjnii
+  model: THUDM/GLM-4-9B-0414
